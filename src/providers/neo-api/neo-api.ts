@@ -5,7 +5,7 @@ import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class NeoApiProvider {
-  private static readonly baseUrl = 'https://neoscan.io/api/main_net/v1';
+  private static readonly baseUrl = 'http://explorer.sovcore.org/';
 
   public constructor(private http: HttpClient, private networkProvider: NetworkProvider) {
   }
