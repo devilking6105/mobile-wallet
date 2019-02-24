@@ -43,7 +43,7 @@ module.exports = function (config) {
       }
     },
     reporters: coverage ? ['progress', 'coverage-istanbul'] : ['progress', 'spec'],
-    port: 9876,
+    port: 11888,
     colors: true,
     logLevel: config.LOG_INFO,
     browserNoActivityTimeout: 60000,
